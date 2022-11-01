@@ -1,0 +1,5 @@
+# Em 01/11/2022 o R$1,00 = U$5,18 .
+
+real = float(input("Quanto você tem na carteira? R$ "))
+dolar = real / 5.18
+print("Com R${:.2f} você consegue comprar U${:.2f} ".format(real,dolar))
