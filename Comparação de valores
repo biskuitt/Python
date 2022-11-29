@@ -1,0 +1,8 @@
+primeiro_valor = float(input('Digite um valor: '))
+segundo_valor = float(input('Digite outro valor: '))
+if primeiro_valor > segundo_valor:
+    print('O primeiro valor {} é maior que o segundo valor {} '.format(primeiro_valor,segundo_valor))
+elif primeiro_valor < segundo_valor:
+    print('o primeiro valor {} é menor que o segundo valor {}'.format(primeiro_valor,segundo_valor))
+else:
+    print('Os valores {} e {} são iguais'.format(primeiro_valor,segundo_valor))
